@@ -1,0 +1,56 @@
+# --- Environments ---
+.venvs/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# --- Python / tooling caches ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- Data: never commit (RSNA terms, patient identifiers) ---
+data/
+*.dcm
+*.npz
+*.npy
+**/predictions.csv
+**/regions.csv
+**/per_image.csv
+**/master_manifest.csv
+**/split.csv
+**/boxes.csv
+
+# --- Model weights / checkpoints ---
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# --- Machine-specific outputs ---
+results/qa/
+results/logs/
+results/reports/
+*.log.tmp
+*.partial
+*.zip
+
+# --- Documents not cleared for sharing ---
+*.pdf
+*.pptx
+*.docx
+
+# --- Streamlit secrets / IDE / OS ---
+.streamlit/secrets.toml
+demo/.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

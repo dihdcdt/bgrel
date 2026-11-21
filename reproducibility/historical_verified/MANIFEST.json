@@ -1,0 +1,100 @@
+{
+  "schema": "BGREL_HISTORICAL_SOURCES_VERIFIED_V1",
+  "date": "2026-11-07",
+  "method": "Exact SHA-256 match to frozen run/evaluation/P3 manifests; sourced from successful Windows R4 review evidence",
+  "source_count": 13,
+  "historical_replay": "NOT_RUN",
+  "sources": [
+    {
+      "source_file": "dataset.py",
+      "recorded_sha256": "7e1ecaa18d1cd03f27157942645d19ca21364e975bda38d70af281755c45740c",
+      "relative_path": "reproducibility/historical_verified/records/7e1ecaa18d1cd03f27157942645d19ca21364e975bda38d70af281755c45740c_dataset.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "evaluate_regions.py",
+      "recorded_sha256": "86d920301da66a83c86767073ab42c6ea30521481ea6d340d357a3c030ed6ffa",
+      "relative_path": "reproducibility/historical_verified/records/86d920301da66a83c86767073ab42c6ea30521481ea6d340d357a3c030ed6ffa_evaluate_regions.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "losses.py",
+      "recorded_sha256": "e585469170a1591a4deb5d16db9b22b22198932f7200fe3307ad0037df85bfb6",
+      "relative_path": "reproducibility/historical_verified/records/e585469170a1591a4deb5d16db9b22b22198932f7200fe3307ad0037df85bfb6_losses.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "metrics.py",
+      "recorded_sha256": "b35837f78580926d6f52be3e861227c375f604bc22e6063f58f549df99bdb67b",
+      "relative_path": "reproducibility/historical_verified/records/b35837f78580926d6f52be3e861227c375f604bc22e6063f58f549df99bdb67b_metrics.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "model.py",
+      "recorded_sha256": "a0f8c3a193877e77703f6cca29ea74715d944a5c9c29cdfede70aa7df20b3d32",
+      "relative_path": "reproducibility/historical_verified/records/a0f8c3a193877e77703f6cca29ea74715d944a5c9c29cdfede70aa7df20b3d32_model.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "p6_preflight.py",
+      "recorded_sha256": "fb3119a30626604b58f1c8eebdf0613b151cab8285b02fa5a7c83188c8f29dc5",
+      "relative_path": "reproducibility/historical_verified/records/fb3119a30626604b58f1c8eebdf0613b151cab8285b02fa5a7c83188c8f29dc5_p6_preflight.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "regions.py",
+      "recorded_sha256": "32166f16739a5abee38461182339d4a15a466068dd93de50d5dd8b4c5883cd0c",
+      "relative_path": "reproducibility/historical_verified/records/32166f16739a5abee38461182339d4a15a466068dd93de50d5dd8b4c5883cd0c_regions.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "rel_adapter.py",
+      "recorded_sha256": "ed76334f11c67e401eecb53c825d243ff4f2d7d20996c11bf4365cf7d999540f",
+      "relative_path": "reproducibility/historical_verified/records/ed76334f11c67e401eecb53c825d243ff4f2d7d20996c11bf4365cf7d999540f_rel_adapter.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "sample_controls.py",
+      "recorded_sha256": "703e4cc3ade77209b20d3de18ed65060d5ea796bc63ce745e7461af994d14e9e",
+      "relative_path": "reproducibility/historical_verified/records/703e4cc3ade77209b20d3de18ed65060d5ea796bc63ce745e7461af994d14e9e_sample_controls.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "t3_train_integration.py",
+      "recorded_sha256": "170e41561810d4c54a3ad087890bf67da24c73aa4d2ba7cd9ba19aee108460be",
+      "relative_path": "reproducibility/historical_verified/records/170e41561810d4c54a3ad087890bf67da24c73aa4d2ba7cd9ba19aee108460be_t3_train_integration.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "train_ablations.py",
+      "recorded_sha256": "8d9b68e2c72e6cb503913ec11f178cb2fd657bff66912e0a0aadf6fdf711a244",
+      "relative_path": "reproducibility/historical_verified/records/8d9b68e2c72e6cb503913ec11f178cb2fd657bff66912e0a0aadf6fdf711a244_train_ablations.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "train_baseline.py",
+      "recorded_sha256": "6d87aa2748b981d0257df64587f3ab264c3be4c8eb730fe6d85c794d5e820d29",
+      "relative_path": "reproducibility/historical_verified/records/6d87aa2748b981d0257df64587f3ab264c3be4c8eb730fe6d85c794d5e820d29_train_baseline.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    },
+    {
+      "source_file": "train_bgrel.py",
+      "recorded_sha256": "ff6f03bff19aa9ef7121be9ef6355984a97aae1545f7b498de61b51481229b36",
+      "relative_path": "reproducibility/historical_verified/records/ff6f03bff19aa9ef7121be9ef6355984a97aae1545f7b498de61b51481229b36_train_bgrel.py",
+      "hash_checked": true,
+      "historical_runtime_replay": "NOT_RUN"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "historical": {
+    "b0_dev_s42": {
+      "filename": "train_baseline.py",
+      "sha256": "6d87aa2748b981d0257df64587f3ab264c3be4c8eb730fe6d85c794d5e820d29"
+    },
+    "b0_t2_noaug_s42": {
+      "filename": "train_baseline.py",
+      "sha256": "b74f54c973a4bae6cf139ba65f6b16696d165e11654ea60b0cb4778795f2f84e"
+    }
+  },
+  "current": {
+    "train_baseline.py": {
+      "sha256": "ea4b348c311d7e0fa564d44ed1e78858965b1b8ce20ec998f605c5771734b34b",
+      "run_id": "b0_dev_s42",
+      "purpose": "diagnostics_only_archived_training_disabled",
+      "notes": "Refactored diagnostic wrapper/shared engine; differs from historical paper source bytes"
+    },
+    "train_t2a_noaug.py": {
+      "sha256": "a39b295dd28be55379dffe2207c361cd16cac69f9ca52d94d6d69becdb1a66ff",
+      "run_id": "b0_t2_noaug_s42",
+      "purpose": "diagnostics_only_archived_training_disabled",
+      "notes": "Refactored diagnostic wrapper/shared engine; differs from historical paper source bytes"
+    }
+  },
+  "historical_runtime_replay": "PENDING"
+}

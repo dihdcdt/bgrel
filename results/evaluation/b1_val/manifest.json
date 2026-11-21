@@ -1,0 +1,17 @@
+{
+  "file_sha256": {
+    "b1_boxpos_s42/metrics.json": "0678a4134f87626160cb89d38e851af04876a06d248d876cca431aede8304573",
+    "b1_boxpos_s42/pr.csv": "58d3584607809859ea80b05136b39d1530823e795735cf09b8fc6895cc7664b2",
+    "b1_boxpos_s42/predictions.csv": "68c14d29ce06243f58bfe3bdecc23009d426d2bf2c9bdcbcce2921c07f0997e5",
+    "b1_boxpos_s42/roc.csv": "ef6756fefa5600dd072afe4d440d5516c27e07d4d7749fd90727160b6642ffad",
+    "paired_bootstrap.json": "bf3c15e352c2f53113b69a43f7ee68291674dccc664404f8e9d8d958ca08e92e"
+  },
+  "n_images": 2969,
+  "phase": "P7_B1_P8a",
+  "run_id": "b1_boxpos_s42",
+  "scope": "VALIDATION_ONLY",
+  "source_sha256": "31552d261e5db9560659594bc7bb626da5bc62701c6ccd61ed710be2913dfd06",
+  "split_sha256": "ccabcf432b0d266264e4ea96ca018b05a67d944af65fca4ad159f5130da7f9a7",
+  "status": "B1_VAL_EVALUATION_COMPLETE",
+  "test_pixels_opened": false
+}

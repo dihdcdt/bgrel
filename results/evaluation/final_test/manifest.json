@@ -1,0 +1,38 @@
+{
+  "checkpoint_sha256": {
+    "a3_l100_s42": "7bd87ba3841f0b8c8287a859dc3c942027e6fb318b2d5122dbfe1321bca2743f",
+    "b0_dev_s42": "f6bda8a74c5d72b948a9ee4ba35cf53c1c0176e7d15dbb457ecc78a4d79f2929",
+    "b1_boxpos_s42": "f1b2ab19211d22dc4ebe53cb978d36e15fa436b58e16f389954f5d2da0e688f1"
+  },
+  "file_sha256": {
+    "a3_l100_s42/metrics.json": "23b0f65e00c95ea03056e0661468559a4f9a0d8bf50b8a11a6d52e7b659535d8",
+    "a3_l100_s42/pr.csv": "c2f0c604dd0d9a73a3d508f22361a81ec1a6787ecf44444c8b06b68bb601dd41",
+    "a3_l100_s42/predictions.csv": "39a37b1573ed85f46147dc9b7e1540e39cd654f930e5a61dbaa91c85a76f5d76",
+    "a3_l100_s42/roc.csv": "06b31cf402b9dd31cc4a9ae11b350cc87396905f62c53afa208cd7734e75e869",
+    "b0_dev_s42/metrics.json": "ef9edb32792453783a9c464a4a4737bdfe0ff5ec4fe991d1e5ce6d8a1dfba27c",
+    "b0_dev_s42/pr.csv": "354b9226e19a88c4aabe9ea548253975cff93496372bab90d64b6635e70c2739",
+    "b0_dev_s42/predictions.csv": "7f0ecfbb604484a6f72960990fb59ec6eaa61342765d8996b0b4b9d7524ebbcc",
+    "b0_dev_s42/roc.csv": "98a066ebbf5d8fdc9432526e38c458d075f3c4423fbffa57426e8d6e3353537b",
+    "b1_boxpos_s42/metrics.json": "4bf47a10cc2ac9d0359b25b3cd017ac93ef8f90d40e4998ed223c3d4f8fac79a",
+    "b1_boxpos_s42/pr.csv": "b75aeefad10a3cac70fd922134ed67ed1186af8325c03a03d4006ea3956de9c2",
+    "b1_boxpos_s42/predictions.csv": "f219753221a014eeaa506a9841798c28708211b3c0fbda580f15050cefe94960",
+    "b1_boxpos_s42/roc.csv": "b22c9b489746919752ac7f0d6a01853917e5fcb522033aaf1122c4470a1fe2b1",
+    "comparison.json": "7a847817d8647007241491de23639799d2b0ec99fff0110c91e9025cabf98fcd",
+    "paired_bootstrap.json": "d9343d60447f87f266690fa073d90adfb41c329458e2b915c95dbcdb62b3faa1",
+    "protocol_freeze.json": "75c64b489cbec4f101124d2db82f3571bc46169fcfaffb05c6fd82740518c628",
+    "test_access_started.json": "e6caa9bc2907a2933f12e29db526482d7e78f91d5932665195453d602cc93fe8"
+  },
+  "n_images": 2967,
+  "no_test_training_or_tuning": true,
+  "phase": "P9",
+  "runs": [
+    "b0_dev_s42",
+    "b1_boxpos_s42",
+    "a3_l100_s42"
+  ],
+  "scope": "HELD_OUT_TEST",
+  "source_sha256": "639d072bb18796853122eb848e8966c6921f52b976b8d29d1512249be9e61601",
+  "split_sha256": "ccabcf432b0d266264e4ea96ca018b05a67d944af65fca4ad159f5130da7f9a7",
+  "status": "FINAL_TEST_COMPLETE",
+  "test_pixels_opened": true
+}

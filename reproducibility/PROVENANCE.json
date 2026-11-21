@@ -1,0 +1,7 @@
+{
+  "r3_snapshot": "Original uploaded active R3, 32 files; not original paper training source",
+  "baseline_originals": "Both B0 and T2-A preserved byte-for-byte",
+  "current_runners": "B0/T2-A recipes split; archived training/resume guard added; SHA differs from originals",
+  "historical_runtime_replay": "PENDING",
+  "historical_hashes_rewritten": false
+}

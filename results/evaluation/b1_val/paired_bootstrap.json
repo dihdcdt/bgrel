@@ -1,0 +1,58 @@
+{
+  "comparisons": {
+    "b1_boxpos_s42_minus_a3_l100_s42": {
+      "ap": {
+        "ci95": [
+          -0.0030502679819108453,
+          0.014627448422272957
+        ],
+        "delta_b1_minus_reference": 0.005574807566924855
+      },
+      "auroc": {
+        "ci95": [
+          -0.0038483557973764764,
+          0.004463056938302945
+        ],
+        "delta_b1_minus_reference": 0.00015634362709748828
+      }
+    },
+    "b1_boxpos_s42_minus_b0_dev_s42": {
+      "ap": {
+        "ci95": [
+          -0.007763024455209424,
+          0.014668205922666393
+        ],
+        "delta_b1_minus_reference": 0.0031478978124913626
+      },
+      "auroc": {
+        "ci95": [
+          -0.0049103629282630816,
+          0.005349412028158914
+        ],
+        "delta_b1_minus_reference": 0.00031019572228885295
+      }
+    }
+  },
+  "invalid_resamples": 0,
+  "method": "paired_patient_cluster_percentile_bootstrap",
+  "n_images": 2969,
+  "n_patients": 1223,
+  "n_resamples": 2000,
+  "point_estimates": {
+    "a3_l100_s42": {
+      "ap": 0.700887211175162,
+      "auroc": 0.8811016059168899
+    },
+    "b0_dev_s42": {
+      "ap": 0.7033141209295954,
+      "auroc": 0.8809477538216985
+    },
+    "b1_boxpos_s42": {
+      "ap": 0.7064620187420868,
+      "auroc": 0.8812579495439874
+    }
+  },
+  "scope": "FROZEN_VALIDATION_ONLY",
+  "seed": 42,
+  "test_pixels_opened": false
+}

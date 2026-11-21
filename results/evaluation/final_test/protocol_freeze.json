@@ -1,0 +1,68 @@
+{
+  "code_sha256": {
+    "dataset.py": "7e1ecaa18d1cd03f27157942645d19ca21364e975bda38d70af281755c45740c",
+    "evaluate_b1_val.py": "31552d261e5db9560659594bc7bb626da5bc62701c6ccd61ed710be2913dfd06",
+    "evaluate_final_test.py": "639d072bb18796853122eb848e8966c6921f52b976b8d29d1512249be9e61601",
+    "evaluate_p8a.py": "7600acc20e4e222c9c49dc1905ebd3a3d628a963d36381fdb77aac3f72d4f9d6",
+    "metrics.py": "b35837f78580926d6f52be3e861227c375f604bc22e6063f58f549df99bdb67b",
+    "model.py": "a0f8c3a193877e77703f6cca29ea74715d944a5c9c29cdfede70aa7df20b3d32"
+  },
+  "comparison_pairs": [
+    "b1_boxpos_s42_minus_b0_dev_s42",
+    "a3_l100_s42_minus_b0_dev_s42",
+    "a3_l100_s42_minus_b1_boxpos_s42"
+  ],
+  "image_input": [
+    3,
+    224,
+    224
+  ],
+  "image_processing": "dataset.py RSNAImageDataset(train=False, seed=42, epoch=0)",
+  "inference_batch": 4,
+  "inference_precision": "FP32",
+  "master_sha256": "4c690ddf7918d0890b6715dba290be85a16959adc0dcaa70b5b4c5bd387d6c9b",
+  "model_selection": "Previously frozen best VAL-AUROC epoch 3 for all models",
+  "models": {
+    "a3_l100_s42": {
+      "best_epoch": 3,
+      "checkpoint_sha256": "7bd87ba3841f0b8c8287a859dc3c942027e6fb318b2d5122dbfe1321bca2743f"
+    },
+    "b0_dev_s42": {
+      "best_epoch": 3,
+      "checkpoint_sha256": "f6bda8a74c5d72b948a9ee4ba35cf53c1c0176e7d15dbb457ecc78a4d79f2929"
+    },
+    "b1_boxpos_s42": {
+      "best_epoch": 3,
+      "checkpoint_sha256": "f1b2ab19211d22dc4ebe53cb978d36e15fa436b58e16f389954f5d2da0e688f1"
+    }
+  },
+  "phase": "P9_FINAL_CLASSIFICATION_TEST",
+  "primary_metric": "AUROC",
+  "protocol_status": "FROZEN_BEFORE_TEST_PIXEL_ACCESS",
+  "regional_test": "NOT_IN_THIS_PROTOCOL",
+  "secondary_metric": "non_interpolated_Average_Precision",
+  "split_sha256": "ccabcf432b0d266264e4ea96ca018b05a67d944af65fca4ad159f5130da7f9a7",
+  "statistics": {
+    "bootstrap_unit": "patient",
+    "ci": 0.95,
+    "method": "paired_patient_cluster_percentile_bootstrap",
+    "resamples": 2000,
+    "seed": 42
+  },
+  "test_count_expected": 2967,
+  "test_patients_expected": 1224,
+  "test_positive_expected": 710,
+  "threshold": 0.5,
+  "threshold_policy": "fixed_descriptive_only_no_test_tuning",
+  "training_or_tuning_after_test": "PROHIBITED",
+  "validation_evidence": {
+    "b1_val": {
+      "manifest_sha256": "3964ef8bfc8a6f89d7be97f560ca9943c10426b620620f1e6e570e062a946948",
+      "n_artifacts_verified": 5
+    },
+    "p8a_val": {
+      "manifest_sha256": "717c17801a336e966cfb45625727c35b47d0c1d78fe2d67e6c78adf1bc426983",
+      "n_artifacts_verified": 9
+    }
+  }
+}

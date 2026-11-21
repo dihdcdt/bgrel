@@ -1,0 +1,62 @@
+{
+  "phase": "P8b_lesion_intervention",
+  "partition": "val",
+  "status": "LESION_INTERVENTION_COMPLETE",
+  "n_positive_images": 711,
+  "n_patients": 254,
+  "n_lesion_boxes": 1122,
+  "methods": {
+    "blur": {
+      "b0_mean_delta": 0.1476878831573204,
+      "a3_mean_delta": 0.1702559794113957,
+      "b0_median_delta": 0.09275531768798828,
+      "a3_median_delta": 0.105518639087677,
+      "b0_fraction_positive": 0.7257383966244726,
+      "a3_fraction_positive": 0.7651195499296765,
+      "image_mean_delta_a3_minus_b0": 0.022568096254075288,
+      "patient_bootstrap": {
+        "n_patients": 254,
+        "patient_mean_delta_a3_minus_b0": 0.028880926505230088,
+        "ci95_lower": 0.017955896416960607,
+        "ci95_upper": 0.04007890956248559,
+        "bootstrap_samples": 2000,
+        "seed": 42
+      }
+    },
+    "fill": {
+      "b0_mean_delta": 0.291467961784131,
+      "a3_mean_delta": 0.29459110291898394,
+      "b0_median_delta": 0.22139909863471985,
+      "a3_median_delta": 0.25286978483200073,
+      "b0_fraction_positive": 0.8621659634317862,
+      "a3_fraction_positive": 0.8551336146272855,
+      "image_mean_delta_a3_minus_b0": 0.003123141134852994,
+      "patient_bootstrap": {
+        "n_patients": 254,
+        "patient_mean_delta_a3_minus_b0": 0.013486822388642957,
+        "ci95_lower": 0.0024506826775604396,
+        "ci95_upper": 0.024635612960490536,
+        "bootstrap_samples": 2000,
+        "seed": 42
+      }
+    }
+  },
+  "gaussian_sigma_source_pixels": 12.0,
+  "occlusion": "union_of_all_annotated_lesion_boxes",
+  "rasterization": "floor_start_ceil_end_covering",
+  "mean_fill": "original_image_global_mean",
+  "normalization": "frozen_dataset_prepare_image",
+  "interpretation": "Exploratory lesion intervention; positive delta is probability reduction, not proof of causal lesion reliance.",
+  "not_computed": [
+    "control_intervention",
+    "RIE",
+    "REM",
+    "Top1"
+  ],
+  "test_pixels_opened": false,
+  "input_checkpoint_sha256": {
+    "b0_dev_s42": "f6bda8a74c5d72b948a9ee4ba35cf53c1c0176e7d15dbb457ecc78a4d79f2929",
+    "a3_l100_s42": "7bd87ba3841f0b8c8287a859dc3c942027e6fb318b2d5122dbfe1321bca2743f"
+  },
+  "per_image_sha256": "8966e8c4f6379eaf8efac474c23e24b403a335cb49974491da8f2c75c9e577af"
+}

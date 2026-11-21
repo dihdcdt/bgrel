@@ -1,0 +1,19 @@
+[server]
+# Bind to loopback only: the app is reachable from this machine, not from the network.
+address = "127.0.0.1"
+port = 8501
+headless = true
+maxUploadSize = 64
+enableXsrfProtection = true
+fileWatcherType = "none"
+
+[browser]
+serverAddress = "localhost"
+serverPort = 8501
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"

@@ -1,0 +1,22 @@
+{
+  "auroc": 0.8771346733480189,
+  "average_precision": 0.7097885027715313,
+  "best_epoch": 3,
+  "checkpoint_sha256": "f1b2ab19211d22dc4ebe53cb978d36e15fa436b58e16f389954f5d2da0e688f1",
+  "fn": 306,
+  "fp": 200,
+  "n_images": 2967,
+  "n_negative": 2257,
+  "n_patients": 1224,
+  "n_positive": 710,
+  "no_test_training_or_tuning": true,
+  "partition": "test",
+  "run_id": "b1_boxpos_s42",
+  "sensitivity_at_0p5": 0.5690140845070423,
+  "specificity_at_0p5": 0.9113867966326983,
+  "test_pixels_opened": true,
+  "threshold": 0.5,
+  "threshold_policy": "fixed_descriptive_only_not_optimized",
+  "tn": 2057,
+  "tp": 404
+}

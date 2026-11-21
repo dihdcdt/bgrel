@@ -1,0 +1,7 @@
+{
+  "expected_image_count": 2967,
+  "no_tuning_or_training_allowed": true,
+  "scope": "HELD_OUT_TEST",
+  "status": "TEST_UNSEAL_IN_PROGRESS",
+  "test_image_pixels_will_be_opened": true
+}

@@ -1,0 +1,31 @@
+{
+  "best_epoch": 3,
+  "best_val_auroc": 0.8812579495439874,
+  "checkpoint_sha256": "f1b2ab19211d22dc4ebe53cb978d36e15fa436b58e16f389954f5d2da0e688f1",
+  "geometry_sha256": null,
+  "geometry_summary": null,
+  "last_epoch": 7,
+  "limitations": [
+    "One training seed only",
+    "Auxiliary coefficient fixed at 0.10 rather than independently optimized",
+    "A2 controls are geometry matched but not certified healthy tissue",
+    "A2 and A3 can have different eligible lesion populations"
+  ],
+  "metrics_sha256": "7a3dffe98a9b2f2c96cc18b1b7bf6498384549bda0eb23d2e4d9f3745549f5b1",
+  "phase": "P7",
+  "run_id": "b1_boxpos_s42",
+  "source_sha256": {
+    "dataset.py": "7e1ecaa18d1cd03f27157942645d19ca21364e975bda38d70af281755c45740c",
+    "losses.py": "e585469170a1591a4deb5d16db9b22b22198932f7200fe3307ad0037df85bfb6",
+    "metrics.py": "b35837f78580926d6f52be3e861227c375f604bc22e6063f58f549df99bdb67b",
+    "model.py": "a0f8c3a193877e77703f6cca29ea74715d944a5c9c29cdfede70aa7df20b3d32",
+    "regions.py": "32166f16739a5abee38461182339d4a15a466068dd93de50d5dd8b4c5883cd0c",
+    "rel_adapter.py": "ed76334f11c67e401eecb53c825d243ff4f2d7d20996c11bf4365cf7d999540f",
+    "sample_controls.py": "703e4cc3ade77209b20d3de18ed65060d5ea796bc63ce745e7461af994d14e9e",
+    "t3_train_integration.py": "170e41561810d4c54a3ad087890bf67da24c73aa4d2ba7cd9ba19aee108460be",
+    "train_ablations.py": "8d9b68e2c72e6cb503913ec11f178cb2fd657bff66912e0a0aadf6fdf711a244"
+  },
+  "status": "FINISHED",
+  "test_images_opened": false,
+  "variant": "b1"
+}

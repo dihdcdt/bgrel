@@ -1,0 +1,19 @@
+{
+  "file_sha256": {
+    "a3_l100_s42/metrics.json": "f6f7e11e8ce77d96cf8d5fdf26a00a918408f819ad9b51f7b6aa9da0f539c1f1",
+    "a3_l100_s42/pr.csv": "30991cfd5f5fabe7d9fa716a0426354442650e5b0deda4e096a2e2b4138f34c0",
+    "a3_l100_s42/predictions.csv": "40aa7c50da663c3ad9e188624bad5a8b961af6afaa96ab962785017fb1a183ee",
+    "a3_l100_s42/roc.csv": "d9d3932bc308be16e33e7bf3077b67edede32e8bd4b3fc2849e6d7d0302a2f47",
+    "b0_dev_s42/metrics.json": "d6ccb336481f5f2938148a98e72188535c169c8c2d95d6246bec0787a86055b0",
+    "b0_dev_s42/pr.csv": "b7ec47d059a5c57e436f3c6bf32d31bb3e80ea92d28565e82eda674dcf806b30",
+    "b0_dev_s42/predictions.csv": "2b188f34dbd0935a21ed8cca5970db31ec4b5f7c20fac01f1d719684e3f1adff",
+    "b0_dev_s42/roc.csv": "d44037e71d2361d73e0e5fd67d6e7056756d03a52169688744535f1b6fa1885f",
+    "comparison.json": "3e682c0effa07c8761dd4187f4736228be4d36e402c07246770eb62119864e48"
+  },
+  "phase": "P8a",
+  "scope": "VALIDATION_ONLY",
+  "source_sha256": "7600acc20e4e222c9c49dc1905ebd3a3d628a963d36381fdb77aac3f72d4f9d6",
+  "split_sha256": "ccabcf432b0d266264e4ea96ca018b05a67d944af65fca4ad159f5130da7f9a7",
+  "status": "VAL_EVALUATION_COMPLETE",
+  "test_pixels_opened": false
+}

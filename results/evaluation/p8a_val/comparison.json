@@ -1,0 +1,12 @@
+{
+  "delta_ap_a3_minus_b0": -0.0024269097544334928,
+  "delta_auroc_a3_minus_b0": 0.00015385209519136467,
+  "matched_image_order": true,
+  "n_common_images": 2969,
+  "note": "Development comparison only. No statistical superiority or TEST claim.",
+  "partition": "val",
+  "runs": [
+    "b0_dev_s42",
+    "a3_l100_s42"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "phase": "P8b",
+  "status": "REGIONAL_EVALUATION_COMPLETE",
+  "scope": "FROZEN_VALIDATION_POSITIVE_IMAGES",
+  "n_positive_images": 711,
+  "n_lesion_boxes": 1122,
+  "eligible_images": 308,
+  "k_distribution": {
+    "0": 778,
+    "1": 233,
+    "2": 111
+  },
+  "mask_status_counts": {
+    "AUTO_SCREENED": 687,
+    "AUTO_FLAG": 21,
+    "AUTO_REJECT": 3
+  },
+  "skip_reasons": {
+    "SEARCH_EXHAUSTED": 744,
+    "IMAGE_SKIP_REL": 34
+  },
+  "methods": {
+    "rem": {
+      "n_lesions": 344,
+      "n_patients": 168,
+      "b0_lesion_mean": 1.652933395992921,
+      "a3_lesion_mean": 3.0746977365018022,
+      "lesion_mean_difference": 1.421764340508881,
+      "patient_mean_difference": 1.5380934818063803,
+      "patient_ci95": [
+        0.5947987381084902,
+        2.4676191739507525
+      ]
+    },
+    "top1": {
+      "n_lesions": 344,
+      "n_patients": 168,
+      "b0_lesion_mean": 0.6191860465116279,
+      "a3_lesion_mean": 0.7645348837209303,
+      "lesion_mean_difference": 0.14534883720930233,
+      "patient_mean_difference": 0.15395120169279833,
+      "patient_ci95": [
+        0.06491499251215638,
+        0.23576538948912878
+      ]
+    },
+    "delta_l_blur": {
+      "n_lesions": 344,
+      "n_patients": 168,
+      "b0_lesion_mean": 0.15015757697856738,
+      "a3_lesion_mean": 0.159990394760064,
+      "lesion_mean_difference": 0.009832817781496615,
+      "patient_mean_difference": 0.01292187170431626,
+      "patient_ci95": [
+        0.0015262338557296283,
+        0.023972881163769885
+      ]
+    },
+    "delta_c_blur": {
+      "n_lesions": 344,
+      "n_patients": 168,
+      "b0_lesion_mean": -0.010643467880960765,
+      "a3_lesion_mean": -0.016146445888511534,
+      "lesion_mean_difference": -0.0055029780075507686,
+      "patient_mean_difference": -0.007877300564158283,
+      "patient_ci95": [
+        -0.015487768396222762,
+        -0.0010491608818423027
+      ]
+    },
+    "rie_blur": {
+      "n_lesions": 344,
+      "n_patients": 168,
+      "b0_lesion_mean": 0.16080104485952815,
+      "a3_lesion_mean": 0.17613684064857554,
+      "lesion_mean_difference": 0.015335795789047382,
+      "patient_mean_difference": 0.020799172268474542,
+      "patient_ci95": [
+        0.007970512577134733,
+        0.03417209199469065
+      ]
+    },
+    "delta_l_fill": {
+      "n_lesions": 344,
+      "n_patients": 168,
+      "b0_lesion_mean": 0.2018601346891617,
+      "a3_lesion_mean": 0.2037173380897298,
+      "lesion_mean_difference": 0.001857203400568112,
+      "patient_mean_difference": 0.00788738498373826,
+      "patient_ci95": [
+        -0.0036293128621153925,
+        0.01911906433389743
+      ]
+    },
+    "delta_c_fill": {
+      "n_lesions": 344,
+      "n_patients": 168,
+      "b0_lesion_mean": 0.002558050838012795,
+      "a3_lesion_mean": -0.0036798648255827113,
+      "lesion_mean_difference": -0.006237915663595506,
+      "patient_mean_difference": -0.005015880087276657,
+      "patient_ci95": [
+        -0.013894782362436237,
+        0.0030067963317544043
+      ]
+    },
+    "rie_fill": {
+      "n_lesions": 344,
+      "n_patients": 168,
+      "b0_lesion_mean": 0.19930208385114892,
+      "a3_lesion_mean": 0.20739720291531252,
+      "lesion_mean_difference": 0.008095119064163618,
+      "patient_mean_difference": 0.012903265071014917,
+      "patient_ci95": [
+        8.79684032680106e-05,
+        0.026670509830047085
+      ]
+    }
+  },
+  "sampling": {
+    "algorithm": "frozen_P3_sample_lesion",
+    "seed": 42,
+    "budget_per_tier": 128,
+    "step": 8,
+    "max_controls": 2,
+    "controls_model_score_independent": true
+  },
+  "intervention": {
+    "source_grid": [
+      1024,
+      1024
+    ],
+    "gaussian_sigma": 12.0,
+    "mean_fill": "original_image_global_mean",
+    "unit": "per_lesion_control_group",
+    "control_effect": "mean_across_matched_controls",
+    "rie": "delta_l_minus_delta_c"
+  },
+  "statistics": {
+    "method": "paired_patient_cluster_percentile_bootstrap",
+    "n_resamples": 2000,
+    "patient_equal_weighted": true,
+    "seed": 42
+  },
+  "limitations": [
+    "Control is unannotated, not clinically certified healthy",
+    "PSPNet masks are geometrically screened, not anatomical ground truth",
+    "K=0 lesions excluded from matched regional metrics",
+    "Only seed 42 model pair was evaluated",
+    "RIE is an intervention contrast, not definitive causal attribution",
+    "Mean-fill and Gaussian blur may introduce perturbation artifacts"
+  ],
+  "inputs": {
+    "split_sha256": "ccabcf432b0d266264e4ea96ca018b05a67d944af65fca4ad159f5130da7f9a7",
+    "boxes_sha256": "6372a1facc3e1b78fbcd97a5bd103d2fc33ed257c92f8076b1d36e9168078e45",
+    "pspnet_sha256": "019b167eac6b729fc1bb92bbbc185fc1730aaa65819f4e3fe718186cadc044fc",
+    "b0_checkpoint_sha256": "f6bda8a74c5d72b948a9ee4ba35cf53c1c0176e7d15dbb457ecc78a4d79f2929",
+    "a3_checkpoint_sha256": "7bd87ba3841f0b8c8287a859dc3c942027e6fb318b2d5122dbfe1321bca2743f",
+    "regions_csv_sha256": "3b7fb641e5c505e6d638084a0dc3900174c63a8e267c483e35cd0682010d46db",
+    "source_sha256": "86d920301da66a83c86767073ab42c6ea30521481ea6d340d357a3c030ed6ffa"
+  },
+  "test_pixels_opened": false
+}

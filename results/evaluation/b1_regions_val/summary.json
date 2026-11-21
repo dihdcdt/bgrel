@@ -1,0 +1,218 @@
+{
+  "phase": "P7_B1_P8b",
+  "status": "B1_REGIONAL_EVALUATION_COMPLETE",
+  "scope": "FROZEN_VALIDATION_POSITIVE_IMAGES",
+  "n_positive_images": 711,
+  "n_lesion_boxes": 1122,
+  "eligible_images": 308,
+  "k_distribution": {
+    "0": 778,
+    "1": 233,
+    "2": 111
+  },
+  "paired_statistics": {
+    "b1_boxpos_s42_minus_b0_dev_s42": {
+      "rem": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 1.652933395992921,
+        "b1_lesion_mean": 1.796635958171168,
+        "lesion_mean_difference_b1_minus_reference": 0.14370256217824684,
+        "patient_mean_difference_b1_minus_reference": 0.3904806277742163,
+        "patient_ci95": [
+          -0.5961363274068395,
+          1.4331356397846402
+        ]
+      },
+      "top1": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.6191860465116279,
+        "b1_lesion_mean": 0.6744186046511628,
+        "lesion_mean_difference_b1_minus_reference": 0.055232558139534885,
+        "patient_mean_difference_b1_minus_reference": 0.08409409218232747,
+        "patient_ci95": [
+          -0.010136156735421441,
+          0.178318943107546
+        ]
+      },
+      "delta_l_blur": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.15015757697856738,
+        "b1_lesion_mean": 0.16770142795745457,
+        "lesion_mean_difference_b1_minus_reference": 0.01754385097888718,
+        "patient_mean_difference_b1_minus_reference": 0.019467725113430222,
+        "patient_ci95": [
+          0.008166637926511448,
+          0.03152372353497883
+        ]
+      },
+      "delta_c_blur": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": -0.010643467880960765,
+        "b1_lesion_mean": -0.001115779193770682,
+        "lesion_mean_difference_b1_minus_reference": 0.009527688687190084,
+        "patient_mean_difference_b1_minus_reference": 0.008844581286668964,
+        "patient_ci95": [
+          0.00152075861881633,
+          0.01637623180061161
+        ]
+      },
+      "rie_blur": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.16080104485952815,
+        "b1_lesion_mean": 0.16881720715122525,
+        "lesion_mean_difference_b1_minus_reference": 0.008016162291697097,
+        "patient_mean_difference_b1_minus_reference": 0.010623143826761257,
+        "patient_ci95": [
+          -0.002244285312994506,
+          0.023963227259900195
+        ]
+      },
+      "delta_l_fill": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.2018601346891617,
+        "b1_lesion_mean": 0.22296844656324707,
+        "lesion_mean_difference_b1_minus_reference": 0.021108311874085364,
+        "patient_mean_difference_b1_minus_reference": 0.025418851280071233,
+        "patient_ci95": [
+          0.010802176410950286,
+          0.040118803705084284
+        ]
+      },
+      "delta_c_fill": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.002558050838012795,
+        "b1_lesion_mean": 0.023350283552941237,
+        "lesion_mean_difference_b1_minus_reference": 0.020792232714928444,
+        "patient_mean_difference_b1_minus_reference": 0.021173321643906312,
+        "patient_ci95": [
+          0.013096697386072694,
+          0.02988965359985531
+        ]
+      },
+      "rie_fill": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.19930208385114892,
+        "b1_lesion_mean": 0.19961816301030583,
+        "lesion_mean_difference_b1_minus_reference": 0.0003160791591569229,
+        "patient_mean_difference_b1_minus_reference": 0.004245529636164924,
+        "patient_ci95": [
+          -0.010520140952585008,
+          0.019387266241017265
+        ]
+      }
+    },
+    "b1_boxpos_s42_minus_a3_l100_s42": {
+      "rem": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 3.0746977365018022,
+        "b1_lesion_mean": 1.796635958171168,
+        "lesion_mean_difference_b1_minus_reference": -1.278061778330634,
+        "patient_mean_difference_b1_minus_reference": -1.1476128540321637,
+        "patient_ci95": [
+          -1.5136997208297283,
+          -0.7637028715237105
+        ]
+      },
+      "top1": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.7645348837209303,
+        "b1_lesion_mean": 0.6744186046511628,
+        "lesion_mean_difference_b1_minus_reference": -0.09011627906976744,
+        "patient_mean_difference_b1_minus_reference": -0.06985710951047086,
+        "patient_ci95": [
+          -0.14534970238095235,
+          0.00579750650260103
+        ]
+      },
+      "delta_l_blur": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.159990394760064,
+        "b1_lesion_mean": 0.16770142795745457,
+        "lesion_mean_difference_b1_minus_reference": 0.007711033197390566,
+        "patient_mean_difference_b1_minus_reference": 0.006545853409113962,
+        "patient_ci95": [
+          -0.0049985498884452,
+          0.01961682693819405
+        ]
+      },
+      "delta_c_blur": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": -0.016146445888511534,
+        "b1_lesion_mean": -0.001115779193770682,
+        "lesion_mean_difference_b1_minus_reference": 0.015030666694740851,
+        "patient_mean_difference_b1_minus_reference": 0.016721881850827246,
+        "patient_ci95": [
+          0.010373301684290981,
+          0.0237299397967876
+        ]
+      },
+      "rie_blur": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.17613684064857554,
+        "b1_lesion_mean": 0.16881720715122525,
+        "lesion_mean_difference_b1_minus_reference": -0.007319633497350286,
+        "patient_mean_difference_b1_minus_reference": -0.010176028441713282,
+        "patient_ci95": [
+          -0.022321495953818504,
+          0.0023925594823975414
+        ]
+      },
+      "delta_l_fill": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.2037173380897298,
+        "b1_lesion_mean": 0.22296844656324707,
+        "lesion_mean_difference_b1_minus_reference": 0.019251108473517253,
+        "patient_mean_difference_b1_minus_reference": 0.017531466296332975,
+        "patient_ci95": [
+          0.004382007979060576,
+          0.03234285603857698
+        ]
+      },
+      "delta_c_fill": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": -0.0036798648255827113,
+        "b1_lesion_mean": 0.023350283552941237,
+        "lesion_mean_difference_b1_minus_reference": 0.02703014837852395,
+        "patient_mean_difference_b1_minus_reference": 0.02618920173118297,
+        "patient_ci95": [
+          0.018459194560354986,
+          0.0351576006726869
+        ]
+      },
+      "rie_fill": {
+        "n_lesions": 344,
+        "n_patients": 168,
+        "reference_lesion_mean": 0.20739720291531252,
+        "b1_lesion_mean": 0.19961816301030583,
+        "lesion_mean_difference_b1_minus_reference": -0.007779039905006695,
+        "patient_mean_difference_b1_minus_reference": -0.008657735434849993,
+        "patient_ci95": [
+          -0.022828687299586013,
+          0.0050161624434135275
+        ]
+      }
+    }
+  },
+  "inputs": {
+    "b1_checkpoint_sha256": "f1b2ab19211d22dc4ebe53cb978d36e15fa436b58e16f389954f5d2da0e688f1",
+    "original_regions_csv_sha256": "3b7fb641e5c505e6d638084a0dc3900174c63a8e267c483e35cd0682010d46db",
+    "b1_regions_csv_sha256": "9f627c0f55286583c65ae444fb8b79a0d926b7bbcb20bdee9992b2dd40a417b8",
+    "source_sha256": "9b163e7486bb93a49595925939747545587b391bd274be4a1d446b89c4363c16"
+  },
+  "test_pixels_opened": false
+}

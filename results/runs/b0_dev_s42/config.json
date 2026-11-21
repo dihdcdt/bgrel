@@ -1,0 +1,31 @@
+{
+  "phase": "P5",
+  "model": "MobileNetV2_OS16_BCE",
+  "run_id": "b0_dev_s42",
+  "seed": 42,
+  "batch": 4,
+  "epochs_cap": 20,
+  "patience": 4,
+  "min_improvement": 0.001,
+  "lr": 3e-05,
+  "weight_decay": 0.001,
+  "optimizer": "AdamW",
+  "scheduler": "CosineAnnealingLR_per_optimizer_step",
+  "amp": true,
+  "amp_precision": "bf16",
+  "grad_scaler_enabled": false,
+  "augment_train": "brightness_contrast_[0.9,1.1]",
+  "validation_augment": false,
+  "pretrained_sha256": "b03531047ffacf1e2488318dcd2aba1126cde36e3bfe1aa5cb07700aeeee9889",
+  "source_sha256": {
+    "dataset.py": "7e1ecaa18d1cd03f27157942645d19ca21364e975bda38d70af281755c45740c",
+    "model.py": "a0f8c3a193877e77703f6cca29ea74715d944a5c9c29cdfede70aa7df20b3d32",
+    "metrics.py": "b35837f78580926d6f52be3e861227c375f604bc22e6063f58f549df99bdb67b",
+    "train_baseline.py": "6d87aa2748b981d0257df64587f3ab264c3be4c8eb730fe6d85c794d5e820d29"
+  },
+  "split_sha256": "ccabcf432b0d266264e4ea96ca018b05a67d944af65fca4ad159f5130da7f9a7",
+  "master_sha256": "4c690ddf7918d0890b6715dba290be85a16959adc0dcaa70b5b4c5bd387d6c9b",
+  "test_images_opened": false,
+  "train_samples": 23748,
+  "val_samples": 2969
+}
